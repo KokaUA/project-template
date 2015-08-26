@@ -1,0 +1,23 @@
+{
+    "name": "koka/project-template",
+    "description": "default template for composer project",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kostya Nemchenko",
+            "email": "kostya.nemchenko@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+           "": [
+               "src/",
+               "tests/"
+            ]
+        }
+    },
+
+    "require": {},
+    "require-dev": {}
+}
